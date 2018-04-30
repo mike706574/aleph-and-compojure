@@ -12,4 +12,4 @@
   (if (= (count args) 0)
     (do (component/start-system (system/system config))
         @(promise))
-    (println (str "Usage: java -jar " id ".jar server"))))
+    (println (str "Usage: java -jar " id ".jar"))))
