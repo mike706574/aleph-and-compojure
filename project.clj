@@ -4,8 +4,6 @@
                  [com.stuartsierra/component "0.3.1"]
                  [aleph "0.4.3"]
                  [compojure "1.5.2"]]
-  :source-paths ["src/clj"]
-  :test-paths ["test/clj"]
   :profiles {:uberjar {:aot :all
                        :main example.main}
              :dev {:source-paths ["dev"]
